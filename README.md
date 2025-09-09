@@ -1,4 +1,10 @@
-## Hi there 👋
+## Hi public 👋
+
+Muito prazer, me chamo isabella!  
+Me conheça por @izzy.mss no Instagram.
+
+Sou estudante de programaçao iniciante pela PrismaTech e atleta competidora de jiu-jitsu profissional.
+
 
 <!--
 **izzymss/izzymss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -11,6 +17,6 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
-- 😄 Pronouns: ...
+- 😄 Pronouns: Ela/Dela
 - ⚡ Fun fact: ...
 -->
