@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELAS</title>
+    <style>
+    table {
+         width: 100%;
+        border-collapse: collapse;
+        border: 3px solid black;}
+   
+    thead {
+        background-color: gray;
+        color: white;}
+
+    tbody {
+        background-color: lightgray;}
+
+    tfoot {
+        background-color: white;}
+    
+            tfoot #valor {
+             color : green;}
+        
+
+
+    </style>                                  
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td> </td>   
+                <td>JAN</td>
+                <td>FEV</td> 
+                <td>MAR</td>
+            </tr>
+
+        </thead>
+        <tbody>
+
+
+            <tr>
+                <td>Mensalidade</td>
+                <td>140R$</td>
+                <td>160R$</td>
+                <td>140R$</td>
+            </tr>
+            <tr>
+                <td>Campeonatos</td>
+                <td>246R$</td>
+                <td>180R$</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="total">TOTAL</td>
+                <td id="valor">440R$</td>
+                <td id="valor"> 426R$</td>
+                <td id="valor">140R$</td>
+            </tr>
+    </table>
+
+</body>
+
+</html>
