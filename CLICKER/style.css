@@ -1,0 +1,55 @@
+body {
+ 
+    animation: mudarCor 2s linear infinite;
+   background-image: url("https://www.shutterstock.com/shutterstock/videos/3745345749/thumb/1.jpg?ip=x480");
+
+   animation: MoverFundo 10s ease infinite;
+   background-size: 20%;
+}
+
+div {display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+}
+img
+{
+    cursor: pointer;
+    animation: rodar 100ms linear infinite;
+}
+h1 {text-align: center;}
+
+@keyframes mudarCor {
+    0% {background-color: black;
+    }
+    25% {background-color: blue;
+    }
+    50% {background-color: red;
+    }
+    75% {background-color: green;
+    }    
+    100% {background-color: black;
+ }
+}
+
+@keyframes rodar {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(2) rotate(360deg);
+    }
+        0% {
+        transform: scale(1) rotate(720deg);
+    }
+    
+}
+@keyframes MoverFundo {
+    0% {background-position: 0% 50%;
+    }
+    50% {background-position: 100% 50%;
+    }  
+    100% {background-position: 0% 50%;
+ }
+    
+}
