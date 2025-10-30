@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 1fr 60px;
+   
+}
+
+header  {
+    height: 100%;
+    background-color: rgb(133, 53, 207);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    font-family: impact ;
+}
+
+div {text-align: center;
+    font-size: 20px;
+    color: white;
+
+    }
+
+main    {height: 100%;
+    background-color: rgb(205, 183, 226);}
+
+footer  {height: 100%;
+    background-color: rgba(104, 26, 172, 0.062);}
+
+.Sobre-Mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    }
+
+#minhaFoto {
+        height: 200px;
+        width: 200px;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+        border-radius: 100px;
+        }
+
+#Texto-Sobre-Mim {
+ width: 600px;;}
+
+ .itens {
+    display: flex;
+ }
+
+.item {
+width: 200px;
+height: 300px;
+border: 3px solid black;    
+}
