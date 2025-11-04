@@ -33,6 +33,7 @@ footer  {height: 100%;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    gap: 50px;
     }
 
 #minhaFoto {
@@ -45,10 +46,17 @@ footer  {height: 100%;
         }
 
 #Texto-Sobre-Mim {
+    background-color: rgb(194, 167, 219);
+    border-radius: 50px;
  width: 600px;;}
 
  .itens {
+    margin: auto;
+    width: 1000px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
  }
 
 .item {
@@ -56,3 +64,5 @@ width: 200px;
 height: 300px;
 border: 3px solid black;    
 }
+
+.item-img {width: 70%;}
