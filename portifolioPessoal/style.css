@@ -1,23 +1,37 @@
+:root {
+    --corPrimaria: #4A314D;
+    --corSecundaria: #4A314D;
+    --corTerciaria: #AFA2FF;
+
+}
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
     display: grid;
     grid-template-rows: 80px 1fr 60px;
-    background-color: rgb(205, 183, 226);
-
+    background-color: var(--corTerciaria)
 }
 
 header {
     height: 50px;
     width: 100%;
     top: 0%;
-    background-color: rgb(133, 53, 207);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--corSecundaria);
     align-items: center;
     font-family: impact;
     position: fixed;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 20px;
+
 
 }
 
@@ -28,17 +42,19 @@ div {
 
 }
 
-.Contato {padding: 100px;}
+.Contato {
+    padding: 100px;
+}
 
 footer {
     height: 60px;
     width: 100%;
-    background-color: rgb(149, 100, 192);
+    background-color: var(--corSecundaria);
     position: fixed;
     bottom: 0%;
 }
 
-.footer-itens{
+.footer-itens {
     display: flex;
     justify-content: space-between;
 
@@ -59,12 +75,26 @@ footer {
     justify-content: center;
     align-items: center;
     border-radius: 100px;
+    box-shadow: 10px 10px 10px var(--corPrimaria);
+
 }
 
 #Texto-Sobre-Mim {
-    background-color: rgb(194, 167, 219);
+    background-color: var(--corPrimaria);
     border-radius: 50px;
     width: 600px;
+    box-shadow: 10px 10px 10px var(--corPrimaria);
+}
+
+#fundoportifolio {
+margin: 040PX auto;
+
+    background-color: var(--corPrimaria);
+    border-radius: 50px;
+    width: 600px;
+    box-shadow: 10px 10px 10px var(--corPrimaria);
+
+
 }
 
 .itens {
@@ -73,18 +103,34 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 50px;
+
 }
 
 .item {
     width: 200px;
     height: 300px;
     border: 3px solid black;
+    box-shadow: 10px 10px 10px var(--corPrimaria);
+    border-radius: 10px;
+    transition: 200ms;
+
+}
+
+.item:hover {
+    transform: scale(1.10);
+
+
 }
 
 .item-img {
     width: 70%;
 }
-.img-instagram{
+
+.img-instagram {
+    height: 40px;
+}
+
+.img-github {
     height: 40px;
 }
